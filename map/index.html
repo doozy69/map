@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="leaflet.css">
 	<script src="leaflet.js"></script>
 
@@ -11,22 +11,22 @@
 
 	<link rel="stylesheet" type="text/css" href="dist/leaflet-search.src.css"></script>
 	<script src="dist/leaflet-search.src.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<style type="text/css">
-		*{
-			margin: 0;
-			padding: 0;
-		}
-
-		#map {
-			width: 100vw;
-  		height: 100vh;
-			background: #fff;
-		}
-	</style>
+	<script src="fuse.js"></script>
+	<script src="leaflet.fusesearch.js"></script>
+	<link rel="stylesheet" type="text/css" href="leaflet.fusesearch.css">
+	
 </head>
 <body>
-	<div id="map"></div>
-	<script src="script.js"></script>
+	<div id="map">
+		
+
+	</div>
+
+	<script src="jquery.js"></script>
+	<script src="jquery.cookie.js"></script>
+    <script src="script.js"></script>
+    
 </body>
 </html>
